@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+.single-input input {
+    border-radius: 20px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: #000;
+}
+
+.single-input label {
+    color: #d02727;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('../img/matrix-red.gif');
+    line-height: normal;
+}
+
+.body-content {
+    background: url('../img/dadu.jpg') no-repeat;
+}
+
+
+
+.btn-link {
+    color: #FFF;
+}
+
+.btn-link:hover {
+    color: rgb(194, 187, 187);
+    text-decoration: none;
+}
+
+.card {
+    background: rgba(208, 39, 39, 0.384);
+    border-bottom: 1px solid rgba(173, 16, 16, 0.294);
+}
+
+.card-header {
+    background: rgba(208, 39, 39, 0.384);
+    border-bottom: 1px solid rgba(173, 16, 16, 0.294);
+}
+
+.card-body {
+    color: #FFF;
+    font-size: 15px;
+
+}
+
+.swal2-popup.swal2-loading {
+    background: rgba(208, 39, 39, 0.384);
+}
+
+.swal2-content strong {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.swal2-popup .swal2-title {
+    color: #FFF !important;
+
+}
+
+.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm {
+    width: 5em !important;
+    height: 5em !important;
+}
+
+.swal2-popup.swal2-modal.swal2-show {
+    background: rgba(208, 39, 39, 0.384);
+
+}
+
+.primary-btn {
+    border: 1px solid #d02727;
+}
+
+.primary-btn:hover {
+    box-shadow: 0px 10px 20px 0px rgba(208, 39, 39, 0.612);
+    background: #d02727;
+}
+
+.id-card-wrapper {
+    width: 100%;
+    background-color: #122023;
+    display: flex;
+}
+
+.id-card {
+    flex-basis: 100%;
+    border: 2px solid #0AE0DF;
+    margin: auto;
+    color: #fff;
+    padding: 1em;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.profile-row .dp {
+    flex-basis: 33.3%;
+    position: relative;
+    margin: 24px;
+    align-self: center;
+}
+
+.profile-row .desc {
+    flex-basis: 66.6%;
+}
+
+.profile-row .dp img {
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.profile-row .desc {
+    padding: 1em;
+}
+
+.profile-row .dp .dp-arc-inner {
+    position: absolute;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border: 7px solid transparent;
+    border-top-color: #0AE0DF;
+    border-radius: 50%;
+    top: -6px;
+    left: -6px;
+
+    animation-duration: 2s;
+    animation-name: rotate-clock;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate-clock {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.profile-row .dp .dp-arc-outer {
+    position: absolute;
+    width: calc(100% + 24px);
+    height: calc(100% + 24px);
+    border: 7px solid transparent;
+    border-top-color: #0AE0DF;
+    border-radius: 50%;
+    top: -12px;
+    left: -12px;
+
+    animation-duration: 2s;
+    animation-name: rotate-anticlock;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate-anticlock {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.profile-row .desc {
+    font-family: 'Orbitron', sans-serif;
+    color: #a4f3f2;
+}
+
+.profile-row .desc h1 {
+    margin: 0px;
+}
+
+.title-content {
+    border-bottom: 1em solid #d02727;
+    margin: 2em;
+    padding: 1.5em;
+    text-align: center;
+
+}
+
+/* Skill */
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.container-bar {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.attack {
+    width: 10%;
+    background-color: #e50000;
+}
+
+.defense {
+    width: 20%;
+    background-color: #005bf6;
+}
+
+.ccc-attack {
+    width: 30%;
+    background-color: #e50000;
+}
+
+.ccc-defense {
+    width: 10%;
+    background-color: #005bf6;
+}
+
+/* ed */
+.stat-box {
+    padding: 20px;
+    text-align: center;
+    background-color: #9206069a
+}
+
+.stat-box .title {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #00B16A;
+}

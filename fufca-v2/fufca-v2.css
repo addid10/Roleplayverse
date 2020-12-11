@@ -1,0 +1,215 @@
+html,
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", "sans-serif";
+    background-image: linear-gradient(120deg, #00e1a3 0%, #bff671 100%);
+    height: 100%;
+    background-size: 300% 300%;
+    animation: gradientAnime 3s ease infinite;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    background: #fda085;
+    outline: 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background: #1e3c72;
+}
+
+input[type="checkbox"]:after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: #00b281;
+    border-radius: 50%;
+    left: 3px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 2px solid #f4f4f4;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .1);
+    transition: all .35s;
+}
+
+input[type="checkbox"]:checked:after {
+    left: calc(100% - 43px);
+}
+
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#hexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    padding-top: 3.5%;
+    padding-bottom: 5.5%;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+@media (max-width: 440px) {
+
+    #hexGrid {
+        width: 93%;
+    }
+    .hexInner p {
+        font-size:20px !important;
+    }
+
+}
+
+.hex {
+    position: relative;
+    visibility: hidden;
+    outline: 1px solid transparent;
+    width: 25%;
+}
+
+.hex:nth-child(7n + 5) {
+    margin-left: 12.5%;
+}
+
+.hex::after {
+    content: "";
+    display: block;
+    padding-bottom: 86.602%;
+}
+
+.hexFront,
+.hexBack {
+    perspective: 800;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 1s ease-out, opacity 0.5s ease-out;
+}
+
+.hexBack {
+    opacity: 0;
+    transform: rotateY(180deg);
+}
+
+.hexIn {
+    position: absolute;
+    width: 96%;
+    padding-bottom: 110.851%;
+    margin: 0 2%;
+    overflow: hidden;
+    visibility: hidden;
+    outline: 1px solid transparent;
+    transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+}
+
+.hexInner {
+    position: absolute;
+    visibility: visible;
+    outline: 1px solid transparent;
+    background-image: linear-gradient(to top, #19e181 0%, #10c76f 10%, #10a960 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+}
+
+.hexInner img {
+    left: -100%;
+    right: -100%;
+    width: 120%;
+    object-fit:cover;
+    margin: 0 auto;
+    transform: rotate3d(0, 0, 0, 0deg);
+    transition: 7s;
+    cursor: pointer;
+    pointer-events: all;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+
+.hexInner img:hover {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+
+    transition: 0s;
+}
+
+.hexInner p {
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2vw;
+    margin: 0;
+    z-index:2;
+}
+
+.typewriter h1 {
+    position: absolute;
+    bottom: 0px;
+    color: #000;
+    display: block;
+    padding: 10px;
+    font-size: 22px;
+    overflow: hidden;
+    border-right: .15em solid #00e1a3;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #00e1a3
+    }
+}
+.fufca-gif {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.fufca-gif img {
+    object-fit: cover;
+    object-position: 50%;
+    width: 120px;
+}

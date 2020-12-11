@@ -1,0 +1,8 @@
+[10-Jan-2019 01:22:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ROM characters_rate
+          GROUP BY character_id
+        ) s, (SELECT @rank :' at line 4 in /home/u5830416/public_html/verse/character/index.ranking.php:3
+Stack trace:
+#0 /home/u5830416/public_html/verse/character/index.ranking.php(3): PDO->prepare('SELECT * FROM (...')
+#1 /home/u5830416/public_html/verse/character/index.php(131): require_once('/home/u5830416/...')
+#2 {main}
+  thrown in /home/u5830416/public_html/verse/character/index.ranking.php on line 3

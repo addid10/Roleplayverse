@@ -1,0 +1,9 @@
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/jquery-3.3.1.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/popper.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/bootstrap.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/jquery.ajaxchimp.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/jquery.sticky.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/owl.carousel.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/mixitup.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/sweetalert2.all.min.js"></script>
+<script src="https://www.roleplayverse.fufcadays.site/ovakun/aovchan/private/main.js"></script>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-shadow: rgb(0, 0, 0, .4) 2px 2px 3px;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.background {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    background: url('../bg/01.jpg') no-repeat center center fixed;
+}
+
+.character-faceclaim {
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+
+.virtual-box {
+    position: fixed;
+    padding: 15px;
+    width: 95%;
+    height: 20%;
+    left: 0;
+    bottom: 3%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(173, 105, 7, 0.7);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.character-name {
+    position: fixed;
+    background: -moz-linear-gradient(left, #FF9800 0%, #f9ab3a 100%);
+    background: -webkit-linear-gradient(left, #FF9800 0%, #f9ab3a 100%);
+    background: linear-gradient(to right, #FF9800 0%, #f9ab3a 100%);
+    bottom: 20%;
+    font-size: 120%;
+    padding: 5px 45px;
+    font-weight: 700;
+    border: 2px ridge #FFEB3B;
+    display: none;
+
+}
+
+@media (max-width: 400px) {
+
+    .character-faceclaim {
+        width: 100%;
+    }
+
+    .virtual-box {
+        height: 30%;
+    }
+
+
+    .character-name {
+        bottom: 29%;
+    }
+
+
+}
+
+
+.virtual-text-box {
+    position: relative;
+    margin: 15px 20px;
+    font-size: 18px;
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation:
+        typing 8s steps(50, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+.arrow {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-top: #fff 15px solid;
+    border-left: transparent 10px solid;
+    border-right: transparent 10px solid;
+    animation: arrow 1s infinite;
+    transition: border .2s;
+}
+
+@keyframes arrow {
+    0% {
+        border-bottom: transparent 0px solid;
+    }
+
+    50% {
+        border-bottom: transparent 4px solid;
+    }
+
+    100% {
+        border-bottom: transparent 0px solid;
+    }
+}
+
+.arrow:hover {
+    border-top: #ddd 20px solid;
+}

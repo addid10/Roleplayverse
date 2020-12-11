@@ -1,0 +1,159 @@
+section.bg-primary {
+    background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%) !important;
+    background: linear-gradient(to right, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%) !important;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-image: -moz-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%);
+    background-image: -webkit-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%);
+    background-image: -ms-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%);
+    color: #FFF;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-round {
+    width: 200px !important
+}
+
+.pcoded .pcoded-header[header-theme="theme5"] {
+    background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%) !important;
+    background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%) !important;
+    padding: 10px !important;
+}
+
+.page-item.active .page-link {
+    background-image: -moz-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item>li.active-navbar>a.home:hover,
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item>li.active-navbar>a.home {
+    color: #fff !important;
+    background-image: -moz-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #5b61cf #53568e #314075 !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item>li.active-navbar>a.home:before {
+    border-left-color: #00ff8c !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item li.active-navbar:hover>a.home span,
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item>li:hover.active-navbar>a.home i,
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item>li.active-navbar>a.home i {
+    color: #fff !important;
+}
+
+
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item li:hover>a.home {
+    background-image: -moz-linear-gradient(0deg, #e9eaf8 0%, #b4b6ce 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #e9eaf8 0%, #b4b6ce 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #e9eaf8 0%, #b4b6ce 100%) !important;
+
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item li:hover>a.home span,
+.pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item li:hover>a.home i {
+    color: #3c408f !important;
+}
+
+.nav-tabs .slide {
+    background-image: -moz-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #3c408f 0%, #5b61cf 100%) !important;
+}
+
+.md-tabs .nav-item.open .nav-link,
+.md-tabs .nav-item.open .nav-link:focus,
+.md-tabs .nav-item.open .nav-link:hover,
+.md-tabs .nav-link.active,
+.md-tabs .nav-link.active:focus,
+.md-tabs .nav-link.active:hover {
+    color: #E62E00 !important;
+}
+
+.swal2-container {
+    z-index: 99999999999 !important;
+}
+
+.fix-menu {
+    background: url('../../../../ovakun/aovchan/aman/banner2.png');
+    background-size: cover;
+}
+
+.pcoded .pcoded-navbar .pcoded-navigatio-lavel {
+    text-transform: none !important;
+    border-top: 0px solid #e3e3e3 !important;
+}
+
+.pcoded .pcoded-navbar[navbar-theme="themelight1"] .main-menu {
+    background: linear-gradient(rgba(78, 83, 168, 0.73), rgb(69, 73, 148, 0.8)), url(../../../../ovakun/aovchan/aman/menu.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pcoded[nav-type="st1"] .pcoded-item.pcoded-left-item>li>a>.pcoded-micon,
+.pcoded[nav-type="st2"] .pcoded-item.pcoded-left-item>li>a>.pcoded-micon {
+    color: #FFF !important;
+}
+
+.pcoded[theme-layout="vertical"] .pcoded-navbar .pcoded-item>li>a .pcoded-mtext {
+    color: #FFF !important;
+}
+
+.btn.btn-default.multiselect-clear-filter {
+    padding: 7px;
+}
+
+.multiselect.dropdown-toggle.btn.btn-default {
+    font-size: 14px;
+    padding: 7px;
+    color: #FFF;
+    background-image: -moz-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+    background-image: -webkit-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+    background-image: -ms-linear-gradient(0deg, #5b61cf 0%, #3c408f 100%) !important;
+
+}
+
+.img-radius {
+    object-fit: cover;
+    width: 55px !important;
+    height: 55px;
+}
+
+.roleplay-characters {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 1px solid rgba(60, 64, 143, 0.5);
+}
+
+.table-characters td {
+    vertical-align: baseline;
+    color: #000;
+    font-size: 15px;
+}
+
+.table-characters td:nth-child(2) {
+    font-weight: 500;
+    color: rgba(60, 64, 143, 0.95);
+    font-size: 15px;
+    white-space: normal;
+    vertical-align: middle;
+}
+table.dataTable td, table.dataTable th {
+    white-space: normal;
+}

@@ -1,0 +1,11 @@
+[07-Jan-2019 03:00:05 UTC] PHP Notice:  Undefined index: roleplay_status in /home/u5830416/public_html/verse/private/admin/roleplays/operation.php on line 27
+[07-Jan-2019 03:00:05 UTC] PHP Notice:  Undefined index: roleplay_status in /home/u5830416/public_html/verse/private/admin/roleplays/operation.php on line 27
+[07-Jan-2019 04:31:21 UTC] PHP Notice:  Undefined index: roleplay_status in /home/u5830416/public_html/verse/private/admin/roleplays/operation.php on line 27
+[07-Jan-2019 04:31:22 UTC] PHP Notice:  Undefined index: condition in /home/u5830416/public_html/verse/private/admin/roleplays/operation.php on line 38
+[07-Jan-2019 06:35:37 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/score.php on line 3
+[07-Jan-2019 06:35:37 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/score.php on line 3
+[07-Jan-2019 06:35:38 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/score.php on line 3
+[07-Jan-2019 06:35:42 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/score.php on line 3
+[09-Jan-2019 21:36:28 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/operation.php on line 3
+[09-Jan-2019 21:36:29 UTC] PHP Notice:  Undefined index: csrf_token in /home/u5830416/public_html/verse/private/admin/roleplays/fetch.php on line 3
+[19-Jan-2019 00:50:06 UTC] PHP Warning:  unlink(../../../assets/img/roleplay/default.png): No such file or directory in /home/u5830416/public_html/verse/private/admin/roleplays/delete.php on line 13

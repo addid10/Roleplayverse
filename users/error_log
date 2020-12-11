@@ -1,0 +1,10 @@
+[07-Jan-2019 02:18:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/u5830416/public_html/verse/users/login_user.php:16
+Stack trace:
+#0 /home/u5830416/public_html/verse/users/login_user.php(16): PDOStatement->bindParam('role', NULL)
+#1 {main}
+  thrown in /home/u5830416/public_html/verse/users/login_user.php on line 16
+[07-Jan-2019 02:18:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/u5830416/public_html/verse/users/login_user.php:16
+Stack trace:
+#0 /home/u5830416/public_html/verse/users/login_user.php(16): PDOStatement->bindParam('role', NULL)
+#1 {main}
+  thrown in /home/u5830416/public_html/verse/users/login_user.php on line 16

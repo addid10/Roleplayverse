@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+<form method="POST">
+    <input name="content">
+</form>
+
+<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!--https://discord.com/api/webhooks/695921614302478416/T2zbGTsb7MzhOpoMVbUE7WQKvG85hituU6zsaizxl2Y64Hq-1hYtDNOJ3BetrlDKqXIF-->
+<!--https://discord.com/api/webhooks/774879410070749236/SeuhgwDYbaKtsmmcz9LK1bq7ISBzPojTuRZSFtfgMM7XtpotEemNp_n7nPRdOO-fBtd3-->
+<script>
+    
+    $(document).ready(function(){
+        $.ajax({
+            url: "https://discord.com/api/webhooks/774879410070749236/SeuhgwDYbaKtsmmcz9LK1bq7ISBzPojTuRZSFtfgMM7XtpotEemNp_n7nPRdOO-fBtd3",
+            type: "POST",
+            dataType: "json",
+            data: {
+                content: "Bct",
+            }
+        })
+    })
+</script>
+
+
+</body>
+
+</html>

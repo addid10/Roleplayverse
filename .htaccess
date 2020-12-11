@@ -1,0 +1,131 @@
+RewriteCond %{HTTP_HOST} ^roleplayverse\.site [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.roleplayverse.site/$1 [R,L]
+
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^roleplayverse\.site [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.roleplayverse.site/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !=""
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+Options -Indexes
+ErrorDocument 404 https://www.roleplayverse.site/404
+ErrorDocument 403 https://www.roleplayverse.site/404
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^character/([0-9]+) character/?id=$1 [L]
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^roleplay_stories/([0-9]+) roleplay_stories/?id=$1 [NC]
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^affiliation/([0-9]+) affiliation/?id=$1 [NC]
+
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^profile/([^/]*) profile/?name=$1 [L]
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^news/([0-9]+) news/?id=$1 [NC]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^category/([0-9a-zA-Z]+) news/filter?q=$1 
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ovakun/aovchan/private/([0-9a-zA-Z.-]+) /assets/js/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ovakun/aovchan/aman/([0-9a-zA-Z.-]+) /assets/img/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/quotes/([0-9a-zA-Z.-]+) /assets/img/quotes/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/profile/([0-9a-zA-Z.-]+) /assets/img/users/profile/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/roleplay/([0-9a-zA-Z.-]+) /assets/img/roleplay/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/character/([0-9a-zA-Z.-]+) /assets/img/oc/profile/$1 [L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/team/([0-9a-zA-Z.-]+) /assets/img/team/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/about/([0-9a-zA-Z.-]+) /assets/img/about/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/iklan/([0-9a-zA-Z.-]+) /assets/img/iklan/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^aovchan/picture/news/([0-9a-zA-Z.-]+) /assets/img/news/$1
+
+<FilesMatch "\.(doc|docx|rar|pdf|exe)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>

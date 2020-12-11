@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.roleplay-paragraph {
+    text-indent: 50px;
+    color: #000;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+.roleplay-paragraph:first-child::first-letter {
+    font-size: 200%;
+    color: #3d4191;
+}
+
+.play-btn {
+    cursor: pointer;
+}
+
+h3 {
+    color: #000000;
+}
+
+.body-summary {
+    background: #191919;
+    color: #FFF;
+}
+
+.header-summary {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    word-spacing: 10px;
+}
+
+.summary {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    word-spacing: 10px;
+    line-height: 130%;
+}
+
+
+.ikuto-summary {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.dejiko-summary {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.reveal blockquote {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    background: rgba(34, 32, 32, 0.719);
+    box-shadow: 0px 0px 3px #000;
+}

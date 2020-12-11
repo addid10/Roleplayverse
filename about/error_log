@@ -1,0 +1,14 @@
+[07-Jan-2019 02:44:34 UTC] PHP Notice:  Undefined variable: connection in /home/u5830416/public_html/verse/layout/header.profile.php on line 4
+[07-Jan-2019 02:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u5830416/public_html/verse/layout/header.profile.php:4
+Stack trace:
+#0 /home/u5830416/public_html/verse/layout/header.php(21): require_once()
+#1 /home/u5830416/public_html/verse/about/index.php(13): require_once('/home/u5830416/...')
+#2 {main}
+  thrown in /home/u5830416/public_html/verse/layout/header.profile.php on line 4
+[07-Jan-2019 02:49:37 UTC] PHP Notice:  Undefined variable: connection in /home/u5830416/public_html/verse/layout/header.profile.php on line 4
+[07-Jan-2019 02:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u5830416/public_html/verse/layout/header.profile.php:4
+Stack trace:
+#0 /home/u5830416/public_html/verse/layout/header.php(21): require_once()
+#1 /home/u5830416/public_html/verse/about/index.php(13): require_once('/home/u5830416/...')
+#2 {main}
+  thrown in /home/u5830416/public_html/verse/layout/header.profile.php on line 4

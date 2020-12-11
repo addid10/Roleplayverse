@@ -1,0 +1,17 @@
+[06-Jan-2019 17:08:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function date_convert() in /home/u5830416/public_html/verse/search/index.php:155
+Stack trace:
+#0 {main}
+  thrown in /home/u5830416/public_html/verse/search/index.php on line 155
+[06-Jan-2019 17:08:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function date_convert() in /home/u5830416/public_html/verse/search/index.php:155
+Stack trace:
+#0 {main}
+  thrown in /home/u5830416/public_html/verse/search/index.php on line 155
+[06-Jan-2019 17:10:22 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:11:02 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:11:17 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:12:11 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:13:35 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:13:47 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:17:06 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[06-Jan-2019 17:17:56 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34
+[07-Jan-2019 00:56:28 UTC] PHP Notice:  Undefined variable: row in /home/u5830416/public_html/verse/layout/modal.php on line 34

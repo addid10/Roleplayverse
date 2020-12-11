@@ -1,0 +1,2 @@
+[16-Jun-2019 09:34:14 UTC] PHP Notice:  Array to string conversion in /home/u5830416/public_html/verse/api/index.php on line 9
+[16-Jun-2019 09:34:14 UTC] PHP Notice:  Undefined variable: Array in /home/u5830416/public_html/verse/api/index.php on line 9
